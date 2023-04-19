@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package >
+    <metadata>
+    <id>SDK.Shan</id>
+    <version>1.0.0</version>
+    <title>ImageEnhancer</title>
+    <authors>Shan</authors>
+    <owners>Shan</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Awesome Image Enhancer</description>
+    <releaseNotes>First release</releaseNotes>
+    <copyright>Copyright 2020</copyright>
+    <tags>image enhancer imageenhancer</tags>
+    </metadata>
+
+    <files>
+        <!-- WinMd and IntelliSense files -->
+      <file src="bin\Debug\SDK.xml" target="lib\uap10.0"/>
+
+      <!-- WINMDs and resources -->
+        <file src="bin\ARM\Debug\SDK.pri" target="runtimes\win10-arm"/>
+
+      <file src="bin\ARM64\Debug\SDK.pri" target="runtimes\win10-arm64"/>
+
+      <file src="bin\x64\Debug\SDK.pri" target="runtimes\win10-x64"/>
+
+      <file src="bin\x86\Debug\SDK.pri" target="runtimes\win10-x86"/>
+    </files>
+</package>
