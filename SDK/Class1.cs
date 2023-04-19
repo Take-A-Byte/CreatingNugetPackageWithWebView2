@@ -18,15 +18,24 @@ namespace SDK
         }
     }
 
+    /// <summary>
+    /// PDFView
+    /// </summary>
     public class PDFView
     {
         private WebView2 _webView2;
 
+        /// <summary>
+        /// PDFView constructor
+        /// </summary>
         public PDFView()
         {
             _webView2 = new WebView2();
         }
 
+        /// <summary>
+        /// Initialize
+        /// </summary>
         public void Initialize()
         {
 
